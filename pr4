@@ -1,0 +1,62 @@
+import math
+import random
+import statistics
+def display():
+    print("Welcome to Python Functions!")
+
+display()
+
+def add(a, b):
+    print("\nAddition =", a + b)
+add(10, 20)
+
+def greet(name="Student"):
+    print("Hello,", name)
+greet()
+greet("John")
+
+def student(name, age):
+    print("\nStudent Details")
+    print("Name:", name)
+    print("Age:", age)
+student(age=20, name="Alice")
+
+def total(*numbers):
+    print("\nNumbers:", numbers)
+    print("Sum =", sum(numbers))
+
+total(10, 20)
+total(5, 10, 15, 20)
+def square(n):
+    return n * n
+
+result = square(8)
+print("\nSquare =", result)
+
+print("\n----- math Module -----")
+print("Square Root of 25:", math.sqrt(25))
+print("Power 2^5:", math.pow(2, 5))
+print("Factorial of 5:", math.factorial(5))
+print("Ceiling of 4.3:", math.ceil(4.3))
+print("Floor of 4.9:", math.floor(4.9))
+print("Value of Pi:", math.pi)
+
+print("\n----- random Module -----")
+print("Random Integer (1-10):", random.randint(1, 10))
+print("Random Float:", random.random())
+
+colors = ["Red", "Blue", "Green", "Yellow"]
+print("Random Choice:", random.choice(colors))
+
+numbers = [1, 2, 3, 4, 5]
+random.shuffle(numbers)
+print("Shuffled List:", numbers)
+
+print("\n----- statistics Module -----")
+data = [10, 20, 30, 40, 50]
+print("Data:", data)
+print("Mean:", statistics.mean(data))
+print("Median:", statistics.median(data))
+print("Mode:", statistics.mode(data))
+print("Standard Deviation:", statistics.stdev(data))
+print("Variance:", statistics.variance(data))
