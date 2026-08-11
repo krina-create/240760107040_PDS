@@ -1,0 +1,100 @@
+def pypr1():
+    pypr1()
+
+name = "krina"
+age = 20
+salary = 25000.50
+isStudent = True
+print("\nVariables")
+print("Name:", name)
+print("Age:", age)
+print("Salary:", salary)
+print("Student:", "Yes" if isStudent else "No")
+
+print("\nData Types")
+print("Type of name:", type(name))
+print("Type of age:", type(age))
+print("Type of salary:", type(salary))
+print("Type of isStudent:", type(isStudent))
+
+a = 10
+b = 5
+
+print("\nArithmetic Operators")
+print("Addition:", a + b)
+print("Subtraction:", a - b)
+print("Multiplication:", a * b)
+print("Division:", a / b)
+print("Modulus:", a % b)
+print("Exponentiation:", a ** b)
+print("Floor Division:", a // b)
+
+print("\nAssignment Operators")
+x = 10
+x += 5
+print("x += 5 =", x)
+x -= 3
+print("x -= 3 =", x)
+x *= 2
+print("x *= 2 =", x)
+x /= 4
+print("x /= 4 =", x)
+
+print("\nComparison Operators")
+print("a == b :", a == b)
+print("a != b :", a != b)
+print("a > b :", a > b)
+print("a < b :", a < b)
+print("a >= b :", a >= b)
+print("a <= b :", a <= b)
+
+print("\nLogical Operators")
+p = True
+q = False
+print("p and q :", p and q)
+print("p or q :", p or q)
+print("not p :", not p)
+
+print("\nBitwise Operators")
+m = 6     
+n = 3     
+print("m =", m)
+print("n =", n)
+print("m & n =", m & n)    
+print("m | n =", m | n)     
+print("m ^ n =", m ^ n)     
+print("~m =", ~m)           
+print("m << 1 =", m << 1)  
+print("m >> 1 =", m >> 1)    
+
+print("\nIdentity Operators")
+list1 = [1, 2, 3]
+list2 = list1
+list3 = [1, 2, 3]
+print("list1 is list2 :", list1 is list2)
+print("list1 is list3 :", list1 is list3)
+print("list1 is not list3 :", list1 is not list3)
+
+
+print("\nMembership Operators")
+fruits = ["Apple", "Banana", "Mango"]
+print("'Apple' in fruits :", "Apple" in fruits)
+print("'Orange' in fruits :", "Orange" in fruits)
+print("'Orange' not in fruits :", "Orange" not in fruits)
+
+
+print("\nIncrement and Decrement")
+num = 10
+print("Original:", num)
+num += 1
+print("Increment:", num)
+num -= 1
+print("Decrement:", num)
+
+
+print("\nString Operators")
+str1 = "Hello"
+str2 = " World"
+print("Concatenation:", str1 + str2)
+str1 += str2
+print("After += :", str1)
