@@ -1,0 +1,53 @@
+print("1. List")
+fruits = ["Apple", "Banana", "Mango"]
+print("Original List:", fruits)
+fruits.append("Orange")
+fruits.pop()
+fruits.sort()
+print("After Manipulation:", fruits)
+
+print("\n2. Tuple")
+colors = ("Red", "Green", "Blue")
+print("Tuple:", colors)
+print("First Element:", colors[0])
+print("Length:", len(colors))
+print("Count of 'Red':", colors.count("Red"))
+print("Index of 'Green':", colors.index("Green"))
+
+print("\n3. Set")
+numbers = {10, 20, 30, 20, 40, 10}
+print("Original Set:", numbers)
+numbers.add(50)
+numbers.remove(20)
+print("After Manipulation:", numbers)
+
+print("\n4. Dictionary")
+student = {
+    "Name": "Krina",
+    "Age": 20,
+    "Course": "BCA"
+}
+print("Original Dictionary:")
+print(student)
+student["City"] = "Mumbai"
+student["Age"] = 21
+del student["Course"]
+print("\nAfter Manipulation:")
+print(student)
+
+print("Keys:", student.keys())
+print("Values:", student.values())
+print("Items:", student.items())
+
+print("\n5. String")
+text = "Hello Python"
+
+print("Original String:", text)
+print("Length:", len(text))
+print("Uppercase:", text.upper())
+print("Lowercase:", text.lower())
+print("Replace:", text.replace("Python", "World"))
+print("Substring:", text[6:12])
+print("Reverse:", text[::-1])
+print("Starts with 'Hello':", text.startswith("Hello"))
+print("Ends with 'Python':", text.endswith("Python"))
